@@ -23,6 +23,7 @@ contract Tx0x1119 is Initializable, ERC20Upgradeable, OwnableUpgradeable, UUPSUp
         onlyOwner
         override
     {}
+
 }
 
 contract Tx0x11192 is Tx0x1119 {
